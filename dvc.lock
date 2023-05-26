@@ -1,0 +1,12 @@
+schema: '2.0'
+stages:
+  HelloWorld:
+    cmd: zntrack run src.hello_world.HelloWorld --name HelloWorld
+    params:
+      params.yaml:
+        HelloWorld:
+          max_number: 512
+    outs:
+    - path: nodes/HelloWorld/random_number.json
+      md5: ea5d2f1c4608232e07d3aa3d998e5135
+      size: 2

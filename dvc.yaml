@@ -1,0 +1,8 @@
+stages:
+  HelloWorld:
+    cmd: zntrack run src.hello_world.HelloWorld --name HelloWorld
+    params:
+    - HelloWorld
+    metrics:
+    - nodes/HelloWorld/random_number.json:
+        cache: false
