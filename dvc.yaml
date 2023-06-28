@@ -6,3 +6,5 @@ stages:
     metrics:
     - nodes/HelloWorld/random_number.json:
         cache: false
+    outs:
+    - nodes/HelloWorld/uuid

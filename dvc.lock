@@ -8,5 +8,10 @@ stages:
           max_number: 512
     outs:
     - path: nodes/HelloWorld/random_number.json
-      md5: ea5d2f1c4608232e07d3aa3d998e5135
-      size: 2
+      hash: md5
+      md5: 3def184ad8f4755ff269862ea77393dd
+      size: 3
+    - path: nodes/HelloWorld/uuid
+      hash: md5
+      md5: 7779ac978e21afae8c75cc02fbeb4fc8
+      size: 36
