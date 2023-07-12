@@ -7,11 +7,11 @@ stages:
         HelloWorld:
           max_number: 512
     outs:
+    - path: nodes/HelloWorld/node-meta.json
+      hash: md5
+      md5: 807dbe52f63a1baf7ccca883c18656ee
+      size: 48
     - path: nodes/HelloWorld/random_number.json
       hash: md5
-      md5: 3def184ad8f4755ff269862ea77393dd
+      md5: 202cb962ac59075b964b07152d234b70
       size: 3
-    - path: nodes/HelloWorld/uuid
-      hash: md5
-      md5: 7779ac978e21afae8c75cc02fbeb4fc8
-      size: 36
