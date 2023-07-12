@@ -5,13 +5,13 @@ stages:
     params:
       params.yaml:
         HelloWorld:
-          max_number: 512
+          max_number: 256
     outs:
     - path: nodes/HelloWorld/node-meta.json
       hash: md5
-      md5: 807dbe52f63a1baf7ccca883c18656ee
+      md5: 0f9b4c61fa678438c51682c44f0a0803
       size: 48
     - path: nodes/HelloWorld/random_number.json
       hash: md5
-      md5: 202cb962ac59075b964b07152d234b70
+      md5: 069059b7ef840f0c74a814ec9237b6ec
       size: 3
